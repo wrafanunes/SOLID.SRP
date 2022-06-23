@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SOLID.SRP
+﻿namespace SOLID.SRP
 {
+    // Nesta classe, ainda é possível ir mais a fundo no SRP e criar uma classe para cada mensagem padrão
     internal class StandardMessages
     {
         public static void WelcomeMessage ()
@@ -15,6 +10,10 @@ namespace SOLID.SRP
 
         public static void EndApplication ()
         {
+            /*Por seguir o princípio de responsabilidade única, a nova mensagem inserida funcionará em todas as partes
+             * do sistema que usam o método EndApplication, do contrário esse código precisaria ser repetido em outras
+             * partes*/
+            Console.WriteLine("Pressione Enter para sair...");
             Console.ReadLine();
         }
 
