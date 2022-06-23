@@ -3,13 +3,7 @@ using SOLID.SRP;
 
 StandardMessages.WelcomeMessage();
 
-Person person = new();
-
-Console.WriteLine("Qual seu primeiro nome?");
-person.FirstName = Console.ReadLine()!;
-
-Console.WriteLine("Qual seu último nome?");
-person.LastName = Console.ReadLine()!;
+Person person = PersonDataCapture.Capture();
 
 if (string.IsNullOrEmpty(person.FirstName))
 {
