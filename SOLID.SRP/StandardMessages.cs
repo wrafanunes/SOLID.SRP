@@ -17,5 +17,10 @@ namespace SOLID.SRP
         {
             Console.ReadLine();
         }
+
+        public static void DisplayValidationError (string fieldName)
+        {
+            Console.WriteLine($"Você não inseriu um {fieldName} válido");
+        }
     }
 }

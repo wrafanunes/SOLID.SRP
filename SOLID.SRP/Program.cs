@@ -5,16 +5,10 @@ StandardMessages.WelcomeMessage();
 
 Person person = PersonDataCapture.Capture();
 
-if (string.IsNullOrEmpty(person.FirstName))
-{
-    Console.WriteLine("Você não informou um primeiro nome válido");
-    StandardMessages.EndApplication();
-    return;
-}
+bool isPersonValid = PersonValidator.Validate(person);
 
-if (string.IsNullOrEmpty(person.LastName))
+if (!isPersonValid)
 {
-    Console.WriteLine("Você não informou um último nome válido");
     StandardMessages.EndApplication();
     return;
 }
