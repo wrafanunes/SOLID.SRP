@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Bem-vindo");
+using SOLID.SRP;
+
+StandardMessages.WelcomeMessage();
 
 Person person = new();
 
@@ -12,17 +14,17 @@ person.LastName = Console.ReadLine()!;
 if (string.IsNullOrEmpty(person.FirstName))
 {
     Console.WriteLine("Você não informou um primeiro nome válido");
-    Console.ReadLine();
+    StandardMessages.EndApplication();
     return;
 }
 
 if (string.IsNullOrEmpty(person.LastName))
 {
     Console.WriteLine("Você não informou um último nome válido");
-    Console.ReadLine();
+    StandardMessages.EndApplication();
     return;
 }
 
 Console.WriteLine($"Seu nome de usuário é {person.FirstName[..1]}{person.LastName}".ToLower());
 
-Console.ReadLine();
+StandardMessages.EndApplication();
