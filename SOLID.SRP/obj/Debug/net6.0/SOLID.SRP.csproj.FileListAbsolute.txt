@@ -1,0 +1,15 @@
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\bin\Debug\net6.0\SOLID.SRP.exe
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\bin\Debug\net6.0\SOLID.SRP.deps.json
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\bin\Debug\net6.0\SOLID.SRP.runtimeconfig.json
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\bin\Debug\net6.0\SOLID.SRP.dll
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\bin\Debug\net6.0\SOLID.SRP.pdb
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\SOLID.SRP.csproj.AssemblyReference.cache
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\SOLID.SRP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\SOLID.SRP.AssemblyInfoInputs.cache
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\SOLID.SRP.AssemblyInfo.cs
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\SOLID.SRP.csproj.CoreCompileInputs.cache
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\SOLID.SRP.dll
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\refint\SOLID.SRP.dll
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\SOLID.SRP.pdb
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\SOLID.SRP.genruntimeconfig.cache
+C:\Users\wilson.nunes\Documents\workspace\.NET\SOLID.SRP\SOLID.SRP\obj\Debug\net6.0\ref\SOLID.SRP.dll
